@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Space Grotesk", sans-serif;
+}
+
+
+/* HEADER */
+hr{
+    margin-top: 0;
+    margin-inline: auto;
+    width: 95%;
+    text-align: center;
+    padding: 0;
+}
+.div1{
+    text-align: center;
+    color: black;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+.divtext{
+    display: flex;
+    margin-bottom: 5rem;
+}
+#para1{
+    margin-bottom: 25px;
+		font-size: calc(2rem + 4*(100vw - 30rem) / 1020);
+		font-family: "Space Grotesk", sans-serif;
+		font-weight: 600;
+    line-height: 1.1;
+    letter-spacing: .01em;
+}
+.para{
+    flex-direction: column;
+    margin-inline: auto;
+    margin-left: 3.5rem;
+    margin-right: 2rem;
+    color:black;
+    margin-top: 2rem;
+}
+#para2{
+    font-weight: normal;
+		margin-bottom: 25px;
+		text-align:justify;
+		font-family: "Space Grotesk", sans-serif;
+		font-weight: 400;
+    line-height: 1.6;
+	padding: 0 25px;
+}
+#para3{
+    font-weight: normal;
+		margin-bottom: 25px;
+		text-align:justify;
+		font-family: "Space Grotesk", sans-serif;
+		font-weight: 400;
+    line-height: 1.6;
+	padding: 0 25px;
+}
+.para4{
+    font-weight: normal;
+		margin-bottom: 25px;
+		text-align:justify;
+		font-family: "Space Grotesk", sans-serif;
+		font-weight: 400;
+    line-height: 1.6;
+	padding: 0 25px;
+}
+
+.divtext img{
+    width: 45%;
+    height: 90vh;
+    margin-inline: auto;
+    margin-top: 2rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0;
+    border-radius: 20px;
+    border: 0.1rem double #ccc;
+}
+
+#button a{
+   /* width: 20%;
+   height: 8vh; */
+   border: 1px solid #008080;
+   padding: 1rem 2rem;
+   background-color: #2d5757;
+   color: #FFFFFF;
+   font-weight: 300;
+   font-size: 1.2rem;
+} 
+#button{
+   margin-top: 10%;
+}
+#button a:hover{
+    opacity: 1;
+    color: #008080;
+    background: transparent;
+}
+#hr{
+    margin-bottom: 5rem;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.container h2{
+    color:black;
+}
+.contact-form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#donationOption{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.contact-form input[type="submit"] {
+    background-color:black;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.contact-form input[type="submit"]:hover {
+    background-color:grey;
+}

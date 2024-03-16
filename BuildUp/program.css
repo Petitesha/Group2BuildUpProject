@@ -1,0 +1,112 @@
+body{
+    font-family: "Space Grotesk", sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main-image{
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+.main-image>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  
+}
+
+.writeup h3 {
+    font-size: calc(2rem + 4*(100vw - 30rem) / 1020);
+color:black;
+margin-right: 20px;
+font-weight: 600;
+line-height: 1.1;
+letter-spacing: .01em;
+margin: 0 0 14px;
+padding: 0 25px;
+position: relative;
+font-family: "Space Grotesk", sans-serif;
+}
+
+.writeup p{
+    margin-bottom: 15px;
+    font-weight: 400;
+    line-height: 1.6;
+	padding: 0 25px;
+	font-family: "Space Grotesk", sans-serif;
+}
+
+.welcome{
+    font-size: 20px;
+    text-align: center;
+}
+
+.skills{
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.skill{
+    width: 400px;
+    height: 380px;
+    background-color: black;
+    border-radius: 8px ;
+    display: flex;
+    flex-direction: column;
+}
+
+.images{
+    width: 100%;
+    height: 200px ;
+}
+
+.images>img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    border-radius: 8px  8px 0px 0px;
+}
+
+.clickable {
+    cursor: pointer; /* Change cursor to pointer to indicate clickable */
+    transition: opacity 0.3s ease; /* Smooth transition for opacity */
+}
+.clickable:hover {
+    opacity: 0.7; /* Reduce opacity on hover to indicate interactivity */
+}
+
+.skill_text{
+    width: 100%;
+    height: 180px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    border-radius: 0px  0px 8px 8px;
+}
+
+.main_text{
+    color: white;
+    font-size: 14px;
+}
+
+.enroll{
+    align-self: self-start;
+    padding: 6px 10px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.enroll>a{
+    text-decoration: none;
+    color: black;
+}
+/* adding hover effect of ytyhe theme color */
